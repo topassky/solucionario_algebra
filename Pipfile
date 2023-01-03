@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+django = "*"
+django-ckeditor = "*"
+pillow = "*"
+pylint = "*"
+pylint-django = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+blog = "python blog/manage.py runserver"
+
